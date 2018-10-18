@@ -22,4 +22,5 @@ class Pc_mmmoney():
     def login_out(self):
         driver=self.driver
         driver.find_element_by_link_text("安全退出").click()
+        driver.implicitly_wait(10)
         driver.quit()
