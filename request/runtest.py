@@ -1,7 +1,7 @@
 import time
 import unittest
 from HTMLTestRunner import HTMLTestRunner
-
+import selenium
 from test_case import test_request_mmmoney
 
 suite=unittest.TestSuite()
